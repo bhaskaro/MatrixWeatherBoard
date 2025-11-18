@@ -73,7 +73,7 @@ All of these are used by `MatrixWeatherBoard.ino`.
 Clone from GitHub:
 
 ```bash
-git clone https://github.com/<your-username>/MatrixWeatherBoard.git
+git clone https://github.com/bhaskaro/MatrixWeatherBoard.git
 cd MatrixWeatherBoard
 ```
 
@@ -231,19 +231,34 @@ No manual adjustment required.
 
 ## 11. License
 
-Choose your preferred license (MIT recommended). Create a `LICENSE` file if needed.
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this software with proper attribution.
+See the [LICENSE](LICENSE) file for full details.
+
+**Note:**  
+This project uses third-party libraries (Adafruit NeoMatrix, Adafruit GFX, WiFiManager, ArduinoJson, etc.) which are each released under permissive open-source licenses.  
+These licenses remain applicable to their respective components.
+
+The MatrixWeatherBoard project does not claim ownership of or responsibility for
+these external APIs. All data returned from these endpoints is subject to the
+terms of the respective providers.
+
+
+## 12. Data Sources
+
+This project uses public, free APIs for retrieving weather and location data:
+
+- **ZIP → Latitude/Longitude**  
+  `http://api.zippopotam.us/us/<ZIP>`  
+  Provided by the open Zippopotam.us API (no API key required).
+
+- **Weather Forecast (Today/Tomorrow)**  
+  `https://api.open-meteo.com/v1/forecast`  
+  Provided by Open-Meteo, a free and open weather API.
+
+These services are operated by their respective providers and may be subject to rate limits or availability constraints. This project does not host or control these services.
 
 ---
 
 Enjoy your new **MatrixWeatherBoard**!
-If you'd like, I can also generate:
-
-✔ Project banner image
-✔ GitHub badges (version, license, platform, libraries)
-✔ Wiring diagram (Fritzing)
-✔ Example GIF of matrix output
-
-Just ask!
-
-```
-```
