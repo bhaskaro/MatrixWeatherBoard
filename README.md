@@ -240,24 +240,17 @@ See the [LICENSE](LICENSE) file for full details.
 This project uses third-party libraries (Adafruit NeoMatrix, Adafruit GFX, WiFiManager, ArduinoJson, etc.) which are each released under permissive open-source licenses.  
 These licenses remain applicable to their respective components.
 
-The MatrixWeatherBoard project does not claim ownership of or responsibility for
-these external APIs. All data returned from these endpoints is subject to the
-terms of the respective providers.
+## 12. Data Sources & API Disclaimer
 
+This project uses public, third-party APIs for retrieving location and weather data:
 
-## 12. Data Sources
+- `http://api.zippopotam.us/us/<ZIP>`
+- `https://api.open-meteo.com/v1/forecast`
 
-This project uses public, free APIs for retrieving weather and location data:
+These services are operated by their respective providers.  
+**MatrixWeatherBoard does not claim ownership of or responsibility for these external APIs.**  
+All data returned from these endpoints is subject to the terms and availability of the providers.
 
-- **ZIP → Latitude/Longitude**  
-  `http://api.zippopotam.us/us/<ZIP>`  
-  Provided by the open Zippopotam.us API (no API key required).
-
-- **Weather Forecast (Today/Tomorrow)**  
-  `https://api.open-meteo.com/v1/forecast`  
-  Provided by Open-Meteo, a free and open weather API.
-
-These services are operated by their respective providers and may be subject to rate limits or availability constraints. This project does not host or control these services.
 
 ---
 
