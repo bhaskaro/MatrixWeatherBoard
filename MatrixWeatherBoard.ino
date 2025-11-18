@@ -60,8 +60,8 @@ const unsigned long SCROLL_INTERVAL_MS = 60;  // ms between scroll steps
 // WiFi / App configuration
 // ----------------------
 
-const char* GREETING_MESSAGE = "Hello from Advi!";
-const char* ZIPCODE          = "95391";  // change this to your ZIP
+const char* GREETING_MESSAGE = "Hello from MatrixWeatherBoard!";
+const char* ZIPCODE          = "90028";  // change this to your ZIP
 
 const unsigned long REFRESH_INTERVAL_MS = 600000;  // 10 minutes
 unsigned long lastUpdate = 0;
@@ -76,7 +76,7 @@ void connectWiFi() {
   // wm.resetSettings();
 
   // Custom AP name when no WiFi is configured or connection fails
-  const char* apName = "Advi-Matrix-Setup";  // SSID of config portal
+  const char* apName = "MatrixWeatherBoard-Setup";  // SSID of config portal
 
   // autoConnect() tries saved WiFi first.
   // If it fails, it starts a config portal AP with name apName.
