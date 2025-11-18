@@ -143,7 +143,7 @@ Modify values near the top of `MatrixWeatherBoard.ino`:
 ### Greeting Message
 
 ```cpp
-const char* GREETING_MESSAGE = "Hello from Advi!";
+const char* GREETING_MESSAGE = "Hello from MatrixWeatherBoard!";
 ```
 
 ### Weather Location (ZIP)
