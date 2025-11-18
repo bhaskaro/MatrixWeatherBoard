@@ -1,0 +1,78 @@
+# ================================
+# Arduino / ESP8266 Build Files
+# ================================
+*.elf
+*.bin
+*.hex
+*.eep
+*.map
+*.lst
+*.lss
+*.d
+*.o
+*.obj
+*.a
+
+# Arduino Build Directories
+build/
+*.tmp
+*.cache
+*.dep
+cache/
+core/
+libraries/
+
+# ESP8266 Compiler Output
+*.cpp.d
+*.gcno
+*.gcda
+
+# ================================
+# Arduino IDE Project Files
+# ================================
+*.ino.cpp
+*.sketch
+*.orig
+
+# Logs
+*.log
+
+# ================================
+# PlatformIO (optional)
+# ================================
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# VSCode Arduino extension
+.vscode/
+
+# ================================
+# OS-specific files
+# ================================
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*
+
+# ================================
+# WiFiManager / Credentials Safety
+# ================================
+# (No real credentials are stored in repo,
+#  but ignore potential config accident files)
+wifi.conf
+credentials.json
+*.bak
